@@ -21,7 +21,7 @@
 #include "Config.h"
 #include "Globals.h"
 
-const uint8_t DMR_SYNC = 0x5FU;
+const uint8_t DMR_SYNC = 0x00U;
 
 CDMRDMOTX::CDMRDMOTX() :
 m_fifo(875U),
